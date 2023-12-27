@@ -1,0 +1,221 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  
+    .hex-part .container-part{
+        display: flex;
+        flex-direction: column !important;
+    }
+  
+  
+    .hex-part .container-part .right{
+      justify-content: center !important;
+    }
+    .hex-part .container-part .right img{
+      width: 100% !important;
+  }
+  
+    .hex-part .container-part .left{
+      text-align: center !important;
+      padding-bottom: 20px !important;
+      margin-top: 0px !important;
+    }
+  
+    .hex-part .container-part .left h1{
+      font-size: 14px !important;
+    }
+    .hex-part .container-part .left h2{
+      text-align: center !important;
+      padding-bottom: 5px !important;
+    }
+  
+    .hex-part .container-part .left p{
+      line-height: 25px !important;
+      padding-bottom: 5px !important;
+    }
+  
+  
+    .hex-part .container-part .left h2{
+      font-size: 30px !important;
+      font-weight: 700 !important;
+      line-height: 40px !important;
+    
+    }
+  
+    /* feature-section */
+  
+    .main-part{
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+  
+    .main-part .box{
+      margin: 30px 0px !important;
+      margin-right: 0px !important;
+    }
+  
+    .main-part .box-3{
+      margin: 30px 0px !important;
+      margin-right: 0px !important;
+    }
+  
+    /* main-part */
+  
+  
+    .flower .top  {
+      margin: 20px 0px;
+   }
+  
+   .flower .top p {
+    font-size: 35px !important;
+   }
+    .flower .down {
+      flex-direction: column !important;
+      text-align: center;
+    }
+  
+    .down .class-part {
+      margin: 20px 0px !important;
+   }
+  
+   .down .class-part .noyon{
+    text-align: center !important;
+    justify-content: space-evenly !important;
+   }
+    /* testimonial */
+  
+    .web .rohomot{
+      margin-top: 45px !important;
+    }
+    .web .rohomot .part h1{
+      font-size: 36px !important;
+    }
+    .web .rohomot .ab{
+      flex-direction: column !important;
+      margin-top: 50px !important;
+    }
+  
+    .web .rohomot .ab .ab-l{
+      text-align: center !important;
+    }
+  
+    .web .rohomot .ab .ab-l img{
+      width: 150px;
+      height: 150px;
+    }
+  
+    .web .rohomot .ab .ab-r{
+      text-align: center !important;
+      margin-left: 0px !important;
+    }
+  
+    .web .rohomot .ab .ab-r p{
+      margin-top: 20px !important;
+      font-size: 11px !important;
+      font-weight: 600 !important;
+      line-height: 20px !important;
+    }
+  
+    /* lower */
+    .lower{
+      margin-top: 90px !important;
+    }
+  
+    .lower .lower-box{
+      width: 90%;
+    }
+  
+    .lower .lower-part{
+      flex-direction: column !important;
+      text-align: center;
+    }
+  
+    .lower .lower-part .lower-l{
+      margin-top: 40px !important;
+      margin-right: 0px !important;
+    }
+  
+    .lower .lower-part .lower-l p{
+      padding-top: 0px !important;
+    }
+  
+    .lower .lower-part .lower-r{
+      margin-top: 40px !important;
+      text-align: center !important;
+    }
+  
+    .lower .lower-part .lower-r .lower-menu{
+      flex-direction: column !important;
+    }
+  
+    .lower .lower-part .lower-r .lower-menu .use{
+      margin-right: 0px !important;
+      margin-bottom: 20px !important;
+    }
+  
+    .lower .last{
+      padding: 30px 0px 20px 0px;
+    }
+  
+  }

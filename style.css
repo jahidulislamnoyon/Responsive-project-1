@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .code{
+     background: #F0FFF0;
+     font-family: Poppins;
+  }
+  
+  
+  .hex{
+    width:100%;
+  }
+  
+  .container{
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: auto;
+    display: none;
+  }
+  
+  .logo{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu ul {
+      list-style: none;
+  }
+  
+  .menu ul li{
+    display: inline;
+    margin-right: 25px;
+  }
+  
+  .h-b{
+    width: 104px;
+    height: 43px;
+  }
+  
+  .h-b button{
+    border-radius: 33px;
+    padding:12px 28px;
+      background: #21B573;
+      color: #fff;
+      border: none;
+  }
+  
+  .hex-part{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 55px;
+  }
+  
+  .container-part{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+  }
+  
+  .left {
+      margin-top: 80px;
+      font-family: Poppins;
+  }
+  
+  .left h1{
+    color: #FD511A;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .left h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+  
+  }
+  
+  .left h2 span{
+    color: #21B573;
+  }
+  
+  .left p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    float: left;
+  
+  }
+  
+  .left button{
+    width: 153px;
+      height: 43px;
+    padding: 12px, 36px,;
+    border-radius: 33px;
+    border: 1px solid #333333;
+    margin-top: 10PX;
+    gap: 10px;
+    background: #21B573;
+    color: #FFFFFF;
+  }
+  
+  .main{
+    width: 100%;
+    padding-top:80px;
+  }
+  
+  .main-part{
+    display: flex;
+    justify-content:center ;
+  }
+  
+  .box:hover {
+  
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .box{
+      width: 100%;
+      text-align: center;
+      width: 270px;
+      height: 270px;
+      align-items: center;
+      margin-top: 10px;
+      background: #F0FFF0;
+      margin-right: 35px;
+  }
+  
+  .text{
+    padding-top: 20px;
+  }
+  
+  .box img{
+    width: 100px;
+    height: 83px;
+    top: 670px;
+    left: 535px;
+  
+  }
+  
+  
+  .box-3{
+       width: 100%;
+      text-align: center;
+      width: 270px;
+      height: 270px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      align-items: center;
+      margin-top: 10px;
+      margin-right: 35px;
+  
+  }
+  
+  .box-3 img{
+    width: 100px;
+    height: 83px;
+    top: 670px;
+    left: 535px;
+  
+  }
+  
+  
+  .flower{
+    width: 100%;
+  }
+  
+  .top{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .top p{
+    font-weight: 600;
+    font-size: 50px;
+  }
+  
+  .down{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .class-part {
+      padding: 15px;
+      border-radius: 18px;
+      margin-right: 60px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+  }
+  
+  .class-part img{
+    width:331px;
+    justify-content: center;
+  }
+  
+  .class-part h3 {
+      font-weight: 600;
+      font-size: 23px;
+      margin-top: 10px;
+  }
+  
+  .class-part h3 span{
+       font-size: 16px;
+  }
+  
+  .class-part button{
+      width: 153px;
+      height: 43px;
+    top: 470px;
+    left: 205px;
+    padding: 12px, 36px,;
+    border-radius: 33px;
+    border: 1px solid #333333;
+    margin-top: 10PX;
+    background: #21B573;
+    color: #FFFFFF;
+  }
+  
+  .noyon{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .noyon logo3{
+    padding-right: 10px;
+  
+  }
+  
+  .noyon img{
+    width: 18px;
+    height: 20px;
+  
+  }
+  
+  .noyon p{
+    float: right;
+    padding: 0px 8px;
+  
+  }
+  
+  .web{
+    width: 100%;
+  }
+  
+  .rohomot{
+    margin-top: 125px;
+  }
+  
+  .part h1{
+    text-align: center;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+  
+  }
+  
+  .ab{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .ab-l img {
+      width: 120px;
+      height: 120px;
+  }
+  
+  .ab-r{
+    margin-left: 40px;
+  }
+  
+  .ab-r p{
+    font-family: Poppins;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .lower{
+    width: 100%;
+    margin-top: 200px;
+      background: #282531;
+      color: #FFFFFF;
+  }
+  
+  
+  .lower-box{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .lower-part{
+    display: flex;
+  }
+  
+  .lower-l{
+    margin-top: 80px;
+    margin-right: 200px;
+  
+  }
+  
+  .lower-l p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 50px;
+  }
+  
+  .lower-r{
+    margin-top:80px ;
+  }
+  
+  .lower-menu{
+    display: flex;
+  }
+  
+  .use{
+    margin-right: 150px;
+  }
+  
+  h4{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .use ul{
+    list-style-type: none;
+  }
+  .use ul li{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .last{
+    width: 100%;
+    padding:100px 0px 50px 0px;
+    text-align: center;
+  }
